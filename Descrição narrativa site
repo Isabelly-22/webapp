@@ -1,0 +1,8 @@
+ciar o script em Python"] --> A2["Importar a biblioteca Streamlit"]
+    A2 --> A3["Definir as opções de pisos (cerâmico, laminado, vinílico e porcelanato)"]
+    A3 --> A4["Criar abas separadas por tipo de piso (Todos, Laminado, Cerâmico, Vinílico, Porcelanato)"]
+    A4 --> A5["Exibir as opções de pisos em cada aba"]
+    A5 --> A6["Permitir ao usuário inserir a área desejada em m² e escolher se deseja adicionar 20% de sobra"]
+    A6 --> A7["Calcular o orçamento total com base na área fornecida, preco por caixa e area por caixa do piso selecionado"]
+    A7 --> A8["Exibir as informações dos pisos selecionados e o orçamento estimado ao usuário"]
+    A8 --> A9["Encerrar o script após a interação do usuário"]
